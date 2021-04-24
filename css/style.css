@@ -1,0 +1,160 @@
+/* common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+.container{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+   
+/* header */
+
+#logoimg{
+    padding-right: 20px;
+    border-right: 1px solid lightgrey;
+    width: 25%;
+}
+  
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    color: grey;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* main */
+
+/* main parte alta */
+
+.main-alto{
+    margin-top: 15px;
+    height: auto;
+    border-radius:3%;
+    margin-bottom: 20px ;
+    padding-left: 5%;
+    padding-top:30%;
+    padding-bottom: 5%;
+    text-align: justify;
+    background: rgba(211, 177, 184, 0.64) url(../img/banner.jpg);
+    background-blend-mode: darken;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+    
+#big{
+    font-size: 25px;
+}
+ 
+
+
+/* main parte bassa    */
+
+.main-basso{
+  height: auto;
+  margin-bottom: 10px;
+  color: grey;
+}
+
+h2{
+    color: black;
+}
+
+.titolo{
+  height: auto;
+  margin-bottom: 10px;
+  
+}
+
+.colonne{
+  margin-bottom: 10px;
+}
+  
+.colonne::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+  
+
+
+
+/* colonna sx */
+.aside-sx{
+  float: left;
+  width: 20%;
+}
+  
+#img-sx{
+  background: rgba(211, 177, 184, 0.64) url(../img/img-1.jpg);
+  background-blend-mode: darken;
+  background-position: center;
+  background-size:cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 3%;
+}
+  
+
+/* colonna centrale */
+.central{
+  float: left;
+  width: 58%;
+  margin-left: 1%;
+  margin right: 1%;
+}
+  
+#img-central{
+  background: rgba(211, 177, 184, 0.64) url(../img/banner-2.jpg);
+  background-blend-mode: darken;
+  background-position: center;
+  background-size:cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 3%;
+}
+
+/* colonna dx  */
+.aside-dx{
+  float: right;
+  width: 20%;
+}
+  
+#img-dx{
+  background: rgba(211, 177, 184, 0.64) url(../img/img-3.jpg);
+  background-blend-mode: darken;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 3%;
+  background-color: violet transparent;
+}
+
+
+
+/* footer */
+footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.redheart {
+    color:#ff0000; 
+    font-size:25px;
+}
